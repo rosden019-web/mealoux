@@ -1,0 +1,460 @@
+[
+  {
+    "id": "the-wall-dely-brahim",
+    "name": "The Wall",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos",
+      "crispy-chicken",
+      "pasta",
+      "dessert"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.75402618298575,
+    "lng": 2.994881488835582,
+    "phone": null,
+    "instagram": "thewallsnack",
+    "googleMapsUrl": "https://maps.app.goo.gl/RsSPs68BviDo46G79",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/the-wall-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/the-wall-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "im-starving-dely-brahim",
+    "name": "I'm Starving",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.750900401136796,
+    "lng": 2.9927643658634975,
+    "phone": null,
+    "instagram": "imstarvingfood",
+    "googleMapsUrl": "https://maps.app.goo.gl/WrXWV5XNpFv7LosQ7",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/im-starving-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/im-starving-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "atyab-sandawich-dely-brahim",
+    "name": "Atyab Sandawich",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.75189846674053,
+    "lng": 2.9912711725754297,
+    "phone": null,
+    "instagram": "atyabsandwich",
+    "googleMapsUrl": "https://maps.app.goo.gl/8r3LRdEWhxhu7TNy7",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/atyab-sandawich-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/atyab-sandawich-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "le-pyromane-dely-brahim",
+    "name": "Le Pyromane",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2"
+    ],
+    "address": null,
+    "lat": 36.75958855564956,
+    "lng": 2.9835446032740127,
+    "phone": null,
+    "instagram": "lepyromane.alger",
+    "googleMapsUrl": "https://maps.app.goo.gl/473KkbEypztr46D68",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/le-pyromane-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/le-pyromane-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "popway-dely-brahim",
+    "name": "PopWay",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.750405185083295,
+    "lng": 2.9943038047192783,
+    "phone": null,
+    "instagram": "popway16",
+    "googleMapsUrl": "https://maps.app.goo.gl/FKw77wuGHs8eARD18",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/popway-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/popway-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "le-new-yorkais-dely-brahim",
+    "name": "Le New Yorkais",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.75030617834236,
+    "lng": 2.994950405300903,
+    "phone": null,
+    "instagram": "le.new.yorkais",
+    "googleMapsUrl": "https://maps.app.goo.gl/udWxVHxy1dopYbLn8",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/le-new-yorkais-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/le-new-yorkais-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "plan-b-dely-brahim",
+    "name": "Plan B",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.750969972926,
+    "lng": 2.99310726340038,
+    "phone": null,
+    "instagram": "planb.algerie",
+    "googleMapsUrl": "https://maps.app.goo.gl/boR35DfZStr4GvBE7",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/plan-b-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/plan-b-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "winners-dely-brahim",
+    "name": "Winners",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.75100335470998,
+    "lng": 2.994373311882946,
+    "phone": null,
+    "instagram": "winners_alg",
+    "googleMapsUrl": "https://maps.app.goo.gl/yKZXzcZUf1wch5HA7",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/winners-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/winners-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "tchytcheese-dely-brahim",
+    "name": "Tchytcheese",
+    "commune": "dely-brahim",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": 36.75056927192526,
+    "lng": 2.9864563613598794,
+    "phone": null,
+    "instagram": "tchytcheese_dz",
+    "googleMapsUrl": "https://maps.app.goo.gl/hoXSvJoPAp2ruCf59",
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/tchytcheese-dely-brahim/logo.webp",
+    "photoUrl": "/restaurants/tchytcheese-dely-brahim/pdc.webp"
+  },
+  {
+    "id": "naan-cheraga",
+    "name": "Naan",
+    "commune": "cheraga",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/naan-cheraga/logo.webp",
+    "photoUrl": "/restaurants/naan-cheraga/pdc.webp"
+  },
+  {
+    "id": "taylor-cheraga",
+    "name": "Taylor",
+    "commune": "cheraga",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/taylor-cheraga/logo.webp",
+    "photoUrl": "/restaurants/taylor-cheraga/pdc.webp"
+  },
+  {
+    "id": "piatto-cheraga",
+    "name": "Piatto",
+    "commune": "cheraga",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/piatto-cheraga/logo.webp",
+    "photoUrl": "/restaurants/piatto-cheraga/pdc.webp"
+  },
+  {
+    "id": "lavenue-cheraga",
+    "name": "L'avenue",
+    "commune": "cheraga",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/lavenue-cheraga/logo.webp",
+    "photoUrl": "/restaurants/lavenue-cheraga/pdc.webp"
+  },
+  {
+    "id": "otacos-cheraga",
+    "name": "O'Tacos",
+    "commune": "cheraga",
+    "cuisines": [
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/otacos-cheraga/logo.webp",
+    "photoUrl": "/restaurants/otacos-cheraga/pdc.webp"
+  },
+  {
+    "id": "g-la-dalle-cheraga",
+    "name": "G La Dalle",
+    "commune": "cheraga",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/g-la-dalle-cheraga/logo.webp",
+    "photoUrl": "/restaurants/g-la-dalle-cheraga/pdc.webp"
+  },
+  {
+    "id": "niwa-food-cheraga",
+    "name": "Niwa Food",
+    "commune": "cheraga",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/niwa-food-cheraga/logo.webp",
+    "photoUrl": "/restaurants/niwa-food-cheraga/pdc.webp"
+  },
+  {
+    "id": "le-select-cheraga",
+    "name": "Le Select",
+    "commune": "cheraga",
+    "cuisines": [
+      "burger",
+      "pizza",
+      "tacos"
+    ],
+    "priceRange": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "phone": null,
+    "instagram": null,
+    "googleMapsUrl": null,
+    "googlePlaceId": null,
+    "source": "manual",
+    "ratingAvg": 0,
+    "ratingCount": 0,
+    "logoUrl": "/restaurants/le-select-cheraga/logo.webp",
+    "photoUrl": "/restaurants/le-select-cheraga/pdc.webp"
+  }
+]

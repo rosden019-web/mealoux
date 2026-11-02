@@ -1,0 +1,12 @@
+{
+  "description": "Aide les groupes à choisir un restaurant à Alger grâce au vote collectif, à découvrir des adresses et à partager leurs avis et récapitulatifs.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "language": "fr",
+  "title": "MEALOUX"
+}

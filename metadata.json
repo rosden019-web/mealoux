@@ -1,0 +1,6 @@
+{
+  "name": "Mealoux",
+  "description": "Mealoux - Application de restauration et commande de repas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
