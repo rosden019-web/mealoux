@@ -22,21 +22,31 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.viewinterop.AndroidView
-import com.example.ui.theme.MealouxCream
 import com.example.ui.theme.MealouxTheme
+import kotlinx.coroutines.delay
 import java.io.InputStream
 
 class MainActivity : ComponentActivity() {
@@ -174,6 +184,22 @@ fun MealouxApp() {
   val context = LocalContext.current
   var webViewInstance by remember { mutableStateOf<WebView?>(null) }
   var canGoBack by remember { mutableStateOf(false) }
+  var isSplashVisible by remember { mutableStateOf(true) }
+  var isPageLoaded by remember { mutableStateOf(false) }
+
+  // Splash screen timing: display the exact visual, then smoothly fade out
+  LaunchedEffect(isPageLoaded) {
+    if (isPageLoaded) {
+      delay(1500L)
+      isSplashVisible = false
+    }
+  }
+
+  // Fallback timer so splash dismisses even on slower/faster conditions
+  LaunchedEffect(Unit) {
+    delay(2800L)
+    isSplashVisible = false
+  }
 
   BackHandler(enabled = canGoBack) {
     webViewInstance?.let { webView ->
@@ -186,12 +212,13 @@ fun MealouxApp() {
   Box(
     modifier = Modifier
       .fillMaxSize()
-      .background(MealouxCream)
-      .safeDrawingPadding()
+      .background(Color(0xFFFCF3EC))
   ) {
+    // 1. Web application view
     AndroidView(
       modifier = Modifier
         .fillMaxSize()
+        .safeDrawingPadding()
         .testTag("mealoux_webview"),
       factory = { ctx ->
         WebView(ctx).apply {
@@ -199,7 +226,7 @@ fun MealouxApp() {
             ViewGroup.LayoutParams.MATCH_PARENT,
             ViewGroup.LayoutParams.MATCH_PARENT
           )
-          setBackgroundColor(android.graphics.Color.parseColor("#FFF4EA"))
+          setBackgroundColor(android.graphics.Color.parseColor("#FCF3EC"))
 
           settings.apply {
             javaScriptEnabled = true
@@ -267,6 +294,7 @@ fun MealouxApp() {
             override fun onPageFinished(view: WebView?, url: String?) {
               super.onPageFinished(view, url)
               canGoBack = view?.canGoBack() == true
+              isPageLoaded = true
             }
 
             override fun shouldOverrideUrlLoading(
@@ -325,5 +353,28 @@ fun MealouxApp() {
         canGoBack = webView.canGoBack()
       }
     )
+
+    // 2. Full-screen edge-to-edge Splash Screen exactly matching user attached image
+    AnimatedVisibility(
+      visible = isSplashVisible,
+      enter = fadeIn(),
+      exit = fadeOut(animationSpec = tween(500)),
+      modifier = Modifier.fillMaxSize()
+    ) {
+      Box(
+        modifier = Modifier
+          .fillMaxSize()
+          .background(Color(0xFFFCF3EC))
+          .testTag("mealoux_splash_screen"),
+        contentAlignment = Alignment.Center
+      ) {
+        Image(
+          painter = painterResource(id = R.drawable.mealoux_splash_screen_full),
+          contentDescription = "MEALOUX",
+          modifier = Modifier.fillMaxSize(),
+          contentScale = ContentScale.Crop
+        )
+      }
+    }
   }
 }

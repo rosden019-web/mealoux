@@ -3,6 +3,7 @@ package com.example
 import android.content.Context
 import android.net.Uri
 import android.webkit.WebResourceResponse
+import androidx.core.content.ContextCompat
 import androidx.test.core.app.ApplicationProvider
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
@@ -61,5 +62,12 @@ class ExampleRobolectricTest {
     assertNotNull("Pdc response should not be null", pdcResp)
     assertEquals("image/webp", pdcResp?.mimeType)
     assertTrue("Pdc stream should have bytes", (pdcResp?.data?.available() ?: 0) > 0)
+  }
+
+  @Test
+  fun `verify splash screen drawable exists`() {
+    val context = ApplicationProvider.getApplicationContext<Context>()
+    val drawable = ContextCompat.getDrawable(context, R.drawable.mealoux_splash_screen_full)
+    assertNotNull("Splash screen full drawable must exist", drawable)
   }
 }
